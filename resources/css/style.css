@@ -122,3 +122,26 @@ div {
 .project {
   margin: 0 20px;
 }
+
+.projects {
+  padding-bottom: 5.85rem;
+}
+
+.idea {
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.idea h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  align-items: center;
+}
+
+.idea .container {
+  margin: 5.2rem auto;
+}
+
+.idea p {
+  margin-bottom: 50px;
+}
