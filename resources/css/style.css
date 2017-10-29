@@ -3,9 +3,9 @@ body {
   font-family: "Open Sans", "Helvetica", "sans-serif";
 }
 
-div {
+/*div {
   border: 1px solid red;
-}
+}*/
 
 .container {
   max-width: 960px;
@@ -119,8 +119,16 @@ div {
   margin: 0 10px;
 }
 
-.project {
+.middleproject {
   margin: 0 20px;
+}
+
+.project {
+  width: 33%;
+}
+
+.project img {
+  width: 100%;
 }
 
 .projects {
