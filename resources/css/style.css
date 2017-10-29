@@ -153,3 +153,52 @@ body {
 .idea p {
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 450px) {
+
+/*Navigation*/
+.navbar img {
+  display: none;
+}
+
+/*Banner*/
+.banner h1 {
+  font-size: 5.7rem;
+}
+
+/*Featured project*/
+.featured {
+  margin: 20px;
+}
+
+.featuredwidth {
+  width: 40%;
+  padding-top: 20px;
+}
+
+.featuredmiddle {
+  margin-right: 20px;
+  margin-left: 0;
+  width: 50%;
+}
+
+/*Projects*/
+.mobilewrap {
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.middleproject {
+  margin: 0;
+}
+
+.projects {
+  margin: 20px;
+}
+
+
+}
