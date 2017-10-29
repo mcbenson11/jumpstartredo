@@ -3,8 +3,12 @@ body {
   font-family: "Open Sans", "Helvetica", "sans-serif";
 }
 
+div {
+  border: 1px solid red;
+}
+
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -66,4 +70,55 @@ body {
   font-size: 2rem;
   text-shadow: -1px -1px 0 #000;
   padding: 15px 0 50px 0;
+}
+
+.featured {
+  margin: 40px auto;
+}
+
+.featured h1, .projects h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #399bd1;
+  margin-bottom: 20px;
+}
+
+.featured img {
+  width: 100%;
+}
+
+.featured h2, .featured h3, .projects h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.projects h2 {
+  margin-top: 10px;
+}
+
+.featured p, .projects p {
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+}
+
+.featured h3 {
+  color: #399bd1;
+}
+
+.featured ul li {
+  line-height: 1.4rem;
+  color:rgba(0,0,0,0.7);
+}
+
+.featuredwidth {
+  width: 25%;
+}
+
+.featuredmiddle {
+  margin: 0 10px;
+}
+
+.project {
+  margin: 0 20px;
 }
