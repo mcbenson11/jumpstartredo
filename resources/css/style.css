@@ -161,6 +161,10 @@ body {
   display: none;
 }
 
+.navbar a {
+  font-size: 0.8rem;
+}
+
 /*Banner*/
 .banner h1 {
   font-size: 5.7rem;
